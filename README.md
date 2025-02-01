@@ -90,3 +90,17 @@ Find more information in our [Contributions Guide](CONTRIBUTING.md), which inclu
 ## License
 
 Wave Terminal is licensed under the Apache-2.0 License. For more information on our dependencies, see [here](./ACKNOWLEDGEMENTS.md).
+
+## Work with the fork
+
+### Setup upstream
+
+git remote add upstream git@github.com:wavetermdev/waveterm.git
+
+### Get upstream updates
+
+git checkout main
+git fetch upstream
+git merge upstream/main
+git checkout develop
+git merge main

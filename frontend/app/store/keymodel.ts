@@ -260,7 +260,7 @@ function countTermBlocks(): number {
 }
 
 function registerGlobalKeys() {
-    globalKeyMap.set("Cmd:]", () => {
+    globalKeyMap.set("Ctrl:Tab", () => {
         switchTab(1);
         return true;
     });
@@ -268,7 +268,7 @@ function registerGlobalKeys() {
         switchTab(1);
         return true;
     });
-    globalKeyMap.set("Cmd:[", () => {
+    globalKeyMap.set("Shift:Ctrl:Tab", () => {
         switchTab(-1);
         return true;
     });
